@@ -1,0 +1,58 @@
+.Hero {
+  height: 70vh;
+  // background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)),
+  //   url(https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
+  //     no-repeat center center / cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s ease;
+  // flex-direction: column;
+  animation: appear 1s ease;
+
+  .HeroText {
+    width: 70%;
+
+    h1 {
+      font-size: 3.5em;
+      color: #fff;
+      font-weight: 400;
+      text-align: center;
+    }
+  }
+  .Buttons {
+    width: 30%;
+
+    img {
+      border: 0.5px solid #fff;
+      border-radius: 50%;
+      padding: 5px;
+      cursor: pointer;
+    }
+  }
+}
+
+.Mountain {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+    url(https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
+      no-repeat center center / cover;
+  animation: appear 1s ease;
+}
+.Beach {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+    url(https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+      no-repeat center center / cover;
+  animation: appear 3s ease 1s;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
