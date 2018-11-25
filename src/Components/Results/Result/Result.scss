@@ -44,3 +44,27 @@
     }
   }
 }
+
+@media screen and (max-width: 992px) {
+  .Result {
+    width: 80vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Result {
+    flex-direction: column;
+    height: 60vh;
+    margin: 5vh auto;
+    padding: 3vh 0;
+    border-top: 0;
+
+    .resultText {
+      width: 100%;
+    }
+
+    .resultImg {
+      width: 100%;
+      margin-bottom: 3vh;
+    }
+  }
+}

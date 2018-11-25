@@ -137,6 +137,18 @@
         font-size: 1em;
         color: #fff;
       }
+
+      label {
+        padding-bottom: 3vh;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ListModal {
+    .search {
+      width: 60%;
     }
   }
 }

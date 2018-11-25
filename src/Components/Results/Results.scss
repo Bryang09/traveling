@@ -11,3 +11,9 @@
     opacity: 1;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .Results {
+    margin-top: 5vh;
+  }
+}

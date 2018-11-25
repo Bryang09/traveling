@@ -6,3 +6,14 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .Buttons img {
+    height: 35px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Buttons img {
+    height: 30px;
+  }
+}
