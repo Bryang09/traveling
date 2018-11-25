@@ -1,0 +1,13 @@
+.Results {
+  margin-top: 0vh;
+  animation: results 2s ease;
+}
+
+@keyframes results {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

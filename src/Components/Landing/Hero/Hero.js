@@ -10,7 +10,6 @@ class Hero extends Component {
   };
 
   render() {
-    console.log(this.props);
     return (
       <div
         className="Hero Mountain"

@@ -1,0 +1,46 @@
+.Result {
+  border: 1px solid #efefef;
+  height: 30vh;
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+  width: 70vw;
+  margin: 0 auto;
+  border-left: 0;
+  border-right: 0;
+
+  .resultImg {
+    width: 50%;
+    height: 80%;
+    background-position: center 65%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .resultText {
+    width: 50%;
+    margin-left: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h3,
+    h4 {
+      font-weight: 400;
+    }
+
+    h4 {
+      img {
+        height: 15px;
+      }
+    }
+
+    h5 {
+      padding: 1vh 2vw;
+      cursor: pointer;
+      color: #fff;
+      font-weight: 400;
+    }
+  }
+}

@@ -10,10 +10,10 @@ class Right extends Component {
         <Link
           to={
             location === "/beach"
-              ? "/desert"
+              ? "/modern"
               : location === "/"
               ? "/beach"
-              : location === "/desert"
+              : location === "/modern"
               ? "/"
               : null
           }

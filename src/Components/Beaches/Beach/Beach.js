@@ -6,7 +6,6 @@ import Left from "../../Landing/Buttons/Left";
 import Right from "../../Landing/Buttons/Right";
 
 const BeachHero = props => {
-  console.log(props);
   return (
     <div
       className="Hero Beach"

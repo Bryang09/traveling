@@ -6,17 +6,16 @@ import "./Button.scss";
 
 class Left extends Component {
   render() {
-    console.log(this.props);
     const location = this.props.location;
     return (
       <div className="Buttons">
         <Link
           to={
             location === "/"
-              ? "/desert"
+              ? "/modern"
               : location === "/beach"
               ? "/"
-              : location === "/desert"
+              : location === "/modern"
               ? "/beach"
               : null
           }

@@ -1,11 +1,11 @@
-.Desert {
+.Modern {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
-    url(https://images.pexels.com/photos/459319/pexels-photo-459319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+    url(https://images.pexels.com/photos/823696/pexels-photo-823696.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
       no-repeat center center / cover;
-  animation: desert 1s ease;
+  animation: Modern 1s ease;
 }
 
-@keyframes desert {
+@keyframes Modern {
   0% {
     transform: translateY(100vh);
   }

@@ -66,3 +66,65 @@
     transform: translateY(0);
   }
 }
+
+@media screen and (max-width: 1171px) {
+  .Hero {
+    .HeroText {
+      h1 {
+        font-size: 3em;
+      }
+      h2 {
+        padding: 1.5vh 2vw;
+      }
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  .Hero {
+    .HeroText {
+      h1 {
+        font-size: 3em;
+      }
+      h2 {
+        width: 30vw;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .Hero {
+    .HeroText {
+      h1 {
+        font-size: 2.1em;
+      }
+      h2 {
+        width: 20vw;
+        font-size: 1em;
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .Hero {
+    .HeroText {
+      h2 {
+        width: 30vw;
+        font-size: 1em;
+      }
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .Hero {
+    .HeroText {
+      h1 {
+        font-size: 2.5em;
+        margin-bottom: 5vh;
+      }
+      h2 {
+        width: 30vw;
+        font-size: 1em;
+      }
+    }
+  }
+}

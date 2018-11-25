@@ -1,30 +1,28 @@
 import React, { Component } from "react";
 
-import BeachHero from "./Beach/Beach";
+import Modern from "./Modern/Modern";
 import ListModal from "../ListModal/ListModal";
 import Results from "../Results/Results";
 
-class Beaches extends Component {
+class Moderns extends Component {
   state = {
     url: this.props.match.path,
     modal: false,
     search: false
   };
-
   onModal = () => {
     this.setState({ modal: !this.state.modal });
   };
   onSearch = () => {
     this.setState({ search: true });
   };
-
   render() {
     return (
-      <div className="Beaches">
-        <BeachHero
+      <div className="Moderns">
+        <Modern
           url={this.state.url}
-          display={this.state.modal}
           click={this.onModal}
+          display={this.state.modal}
         />
         <ListModal
           location={this.state.url}
@@ -42,4 +40,4 @@ class Beaches extends Component {
   }
 }
 
-export default Beaches;
+export default Moderns;
