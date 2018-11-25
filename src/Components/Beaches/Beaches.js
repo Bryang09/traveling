@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
-import Hero from "./Hero/Hero";
-import Modal from "../ListModal/ListModal";
+import BeachHero from "./Beach/Beach";
+import ListModal from "../ListModal/ListModal";
 
-class Landing extends Component {
+class Beaches extends Component {
   state = {
     url: this.props.match.path,
     modal: false
@@ -12,18 +12,20 @@ class Landing extends Component {
   onModal = () => {
     this.setState({ modal: !this.state.modal });
   };
+
   render() {
+    console.log(this.props);
     return (
-      <div className="Landing">
-        <Hero
+      <div className="Beaches">
+        <BeachHero
           url={this.state.url}
           display={this.state.modal}
           click={this.onModal}
         />
-        <Modal location={this.state.url} display={this.state.modal} />
+        <ListModal location={this.state.url} display={this.state.modal} />
       </div>
     );
   }
 }
 
-export default Landing;
+export default Beaches;
